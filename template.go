@@ -13,6 +13,7 @@ type Template struct {
 	ParentTemplates TemplateIDs  `json:"parentTemplates,omitempty"`
 	TemplatesClear  TemplateIDs  `json:"templates_clear,omitempty"`
 	LinkedHosts     []string     `json:"hosts,omitempty"`
+	Tags            Tags         `json:"tags,omitempty"`
 }
 
 // Templates is an Array of Template structs.
